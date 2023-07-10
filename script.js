@@ -8,7 +8,8 @@ Array.from(buttons).forEach((button)=>{
         string = eval(string)
         document.querySelector('input').value = string
     }else if (e.target.innerHTML == 'C') {
-        document.querySelector('input').value = ''
+        string = ''
+       document.querySelector('input').value = string
     }else if (e.target.innerHTML === 'DE') {
         string = string.slice(0, -1);
         document.querySelector('input').value = string
